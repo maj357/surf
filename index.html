@@ -16,14 +16,9 @@
 <body>
 
   <header class="header">
-    <div class="header__title">
+    <div id="top" class="header__title">
       go
       surf
-    </div>
-    <div class="header__arrows">
-      <a class="header__arrows-link animate__animated animate__fadeInDown animate__slow animate__infinite" href="#">
-        <img src="images/arrows-down.svg" alt="arrow down">
-      </a>
     </div>
     <div class="header__map">
       <svg width="1001" height="496" viewBox="0 0 1001 496" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -185,6 +180,7 @@
     </div>
   </header>
 
+
   <div class="container-fluid">
     <section class="surf">
       <div id="surf" class="title">
@@ -194,7 +190,7 @@
         </span>
       </div>
       <div class="surf__subtitle">
-        <div class="subtitle wow animate__animated animate__fadeIn" data-wow-offset="400">
+        <div class="subtitle wow animate__animated animate__fadeIn" data-wow-offset="300">
           <div class="headline-left">
             Current location
           </div>
@@ -643,7 +639,7 @@
         <div class="travel-slider__item">
           <div class="travel-slider__head">
             <div class="travel-slider__subtitle">
-              <div class="subtitle wow animate__animated animate__fadeIn" data-wow-offset="400">
+              <div class="subtitle wow animate__animated animate__fadeIn" data-wow-offset="300">
                 <div class="headline-left travel-headline-left">
                   Shore
                 </div>
@@ -660,22 +656,22 @@
                 </div>
               </div>
               <div class="travel-slider__info">
-                <div class="travel-slider__info-item wow animate__animated animate__fadeInUp" data-wow-offset="400"
+                <div class="travel-slider__info-item wow animate__animated animate__fadeInUp" data-wow-offset="300"
                   data-wow-delay="0.3s">
                   <div class="travel-slider__info-subtitle">Destination</div>
                   <div class="travel-slider__info-title">Queensland <br> Australia</div>
                 </div>
-                <div class="travel-slider__info-item wow animate__animated animate__fadeInUp" data-wow-offset="400"
+                <div class="travel-slider__info-item wow animate__animated animate__fadeInUp" data-wow-offset="300"
                   data-wow-delay="0.6s">
                   <div class="travel-slider__info-subtitle">Distance</div>
                   <div class="travel-slider__info-title">7,065 Miles</div>
                 </div>
-                <div class="travel-slider__info-item wow animate__animated animate__fadeInUp" data-wow-offset="400"
+                <div class="travel-slider__info-item wow animate__animated animate__fadeInUp" data-wow-offset="300"
                   data-wow-delay="0.9s">
                   <div class="travel-slider__info-subtitle">Travel Time</div>
                   <div class="travel-slider__info-title">23 Hours <br> 5 Minutes</div>
                 </div>
-                <div class="travel-slider__info-item wow animate__animated animate__fadeInUp" data-wow-offset="400"
+                <div class="travel-slider__info-item wow animate__animated animate__fadeInUp" data-wow-offset="300"
                   data-wow-delay="1.2s">
                   <div class="travel-slider__info-subtitle">Pricing</div>
                   <div class="travel-slider__info-title">$1,976 USD
@@ -850,7 +846,7 @@
         <div class="sleep-slider__item">
           <div class="sleep-slider__head">
             <div class="sleep-slider__subtitle">
-              <div class="subtitle wow animate__animated animate__fadeIn" data-wow-offset="400">
+              <div class="subtitle wow animate__animated animate__fadeIn" data-wow-offset="300">
                 <div class="headline-left">
                   Resorts
                 </div>
@@ -1136,7 +1132,7 @@
               </div>
             </div>
             <div class="shop-slider__content">
-              <div class="shop-slider__image wow animate__animated animate__fadeInUp" data-wow-offset="100" data-wow-delay="1s">
+              <div class="shop-slider__image wow animate__animated animate__fadeInUp" data-wow-offset="5" data-wow-delay="1s">
                 <img src="images/shop/surfboard.png" alt="Surfboard picture">
                 <div class="shop-slider__image-box dots-position--1">
                   <div class="circle">
@@ -1279,6 +1275,12 @@
         © Go-Surf 2018. All Rights Reserved.
       </div>
     </footer>
+  </div>
+
+  <div class="top__arrows">
+    <a class="top__arrows-link animate__animated animate__fadeInDown animate__slow animate__infinite" href="#top">
+      <img src="images/arrows-down.svg" alt="arrow top">
+    </a>
   </div>
 
   <script src="js/main.min.js"></script>
